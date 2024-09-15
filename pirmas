@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Įmonės pavadinimas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero sekcija -->
+    <header>
+        <h1>Kokybiškos padangų remonto paslaugos Vilniuje – Šeškinėje</h1>
+        <p>Greitas ir profesionalus padangų remontas bei keitimas jūsų automobiliui.</p>
+    </header>
+
+    <!-- Apie mus -->
+    <section>
+        <h2>Apie mus</h2>
+        <p>Mūsų įmonė specializuojasi padangų remonto ir priežiūros srityje. Turime ilgametę patirtį ir teikiame aukštos kokybės paslaugas Vilniuje, Šeškinės rajone. Mes vertiname klientų pasitikėjimą ir visada siekiame užtikrinti greitą bei patikimą aptarnavimą.</p>
+    </section>
+
+    <!-- Paslaugos -->
+    <section>
+        <h2>Mūsų paslaugos</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Padangų remontas</h3>
+                <p>Atliekame visų rūšių padangų remontą: pradūrimai, oro nutekėjimai, balanso problemos.</p>
+            </div>
+            <div class="service">
+                <h3>Padangų keitimas</h3>
+                <p>Greitas ir kokybiškas sezoninis padangų keitimas, užtikrinant saugumą ir komfortą kelyje.</p>
+            </div>
+            <div class="service">
+                <h3>Balansavimas</h3>
+                <p>Užtikriname teisingą ratų balansavimą, siekiant sumažinti vibracijas ir užtikrinti ilgaamžiškumą.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktai -->
+    <section>
+        <h2>Kontaktai</h2>
+        <div class="contact-info">
+            <p>Telefonas: +370 612 34567</p>
+            <p>Adresas: Šeškinės g. 12, Vilnius</p>
+            <p>El. paštas: info@padanguremontas.lt</p>
+            <p><a href="https://goo.gl/maps/example" target="_blank">Rasti mus žemėlapyje</a></p>
+        </div>
+    </section>
+
+    <!-- Pabaiga -->
+    <footer>
+        <p>&copy; 2024 Įmonės pavadinimas. Visos teisės saugomos.</p>
+    </footer>
+
+</body>
+</html>
